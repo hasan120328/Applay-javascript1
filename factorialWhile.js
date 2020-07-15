@@ -1,0 +1,14 @@
+function factorial(n){
+    var i=1;
+    var fact=1;
+    while(i<=n){
+       var fact=fact*i;
+       i++
+      
+    }
+    return fact;
+}
+
+var fact= factorial(4);
+console.log(fact);
+
